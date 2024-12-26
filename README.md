@@ -9,6 +9,15 @@ NOTE: This project is back in action. Feature requests and bug reports are welco
 
 PBS, the name could be better, is a browser extension does keyboard navigation / control of webpages in an opinionated way.
 
+---
+
+<p align="center">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/pbs/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get PBS for Firefox"></a>
+<!-- <a href="https://microsoftedge.microsoft.com/"><img src="https://user-images.githubusercontent.com/585534/107280673-a5ece780-6a26-11eb-9cc7-9fa9f9f81180.png" alt="Get PBS for Microsoft Edge"></a> -->
+</p>
+
+---
+
 That opinion being: _**C**oncatenation of **F**irst **A**lphabets_ should be a good enough shortcut for most actions on webpages. So when hints are generated, they are generated such that you already know what they will be.
 
 It was created to serve 3 simple needs:

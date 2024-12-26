@@ -35,5 +35,10 @@
       "resources": ["contentStyle.css", "icon-128.png", "icon-32.png"],
       "matches": []
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{3707ca5e-7f04-464d-9a62-1f7312381c39}"
+    }
+  }
 }

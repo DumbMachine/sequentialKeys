@@ -393,3 +393,5 @@ public/manifest.json
 
 vite.config.firefox.ts.*.mjs
 vite.config.chrome.ts.*.mjs
+
+pbs.zip
