@@ -22,6 +22,13 @@ Also I lifted most of the code already from an abandoned project ( grease-monkey
 - [Surfingkeys](https://github.com/brookhong/Surfingkeys)
 - [vimium](https://github.com/philc/vimium)
 
+## TODO:
+
+- [x] V2 revamp, that is faster and more focussed on the shortcuts
+- [ ] `cmd`+`<combination>` should try to open the url in new tab
+- [ ] bring back `t`+`<integer>` to open the tab of index `<integer>`
+- [ ] `x` to close windows, via background script
+
 ## 🎬 Demo
 
 https://github.com/DumbMachine/pbs/assets/23381512/6335d5b0-cdc7-4f52-aaee-40f6a23aa154

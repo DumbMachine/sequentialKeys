@@ -25,7 +25,6 @@
       "css": ["contentStyle.css"]
     }
   ],
-  "devtools_page": "src/pages/devtools/index.html",
   "web_accessible_resources": [
     {
       "resources": ["contentStyle.css", "icon-128.png", "icon-32.png"],
