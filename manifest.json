@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Predictable Browser Shortcuts",
+  "description": "A browser extension that add hints to ui elements, which are not fully _random_.",
+  "version": "2024.12.25",
+  "author": "dumbmachine",
+  "homepage_url": "https://github.com/DumbMachine/pbs",
+  "options_ui": {
+    "page": "src/pages/options/index.html"
+  },
+  "action": {
+    "default_title": "PBS",
+    "default_popup": "src/pages/popup/index.html",
+    "default_icon": {
+      "32": "icon-32.png"
+    }
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "64": "icon-64.png",
+    "128": "icon-128.png"
+  },
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "<all_urls>", "file:///*"],
+      "js": ["src/pages/content/index.tsx"],
+      "css": ["contentStyle.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["contentStyle.css", "icon-128.png", "icon-32.png"],
+      "matches": []
+    }
+  ]
+}
