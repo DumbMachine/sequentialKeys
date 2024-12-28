@@ -3,8 +3,6 @@ import { createRoot } from "react-dom/client";
 import "@pages/popup/index.css";
 import "@assets/styles/tailwind.css";
 import Popup from "@pages/popup/Popup";
-// import { SettingsProvider } from '../content/context/SettingsContext';
-import { SettingsProvider } from "@pages/content/context/index";
 
 function init() {
   const rootContainer = document.querySelector("#__root");
