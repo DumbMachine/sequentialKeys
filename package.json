@@ -1,6 +1,6 @@
 {
   "name": "pbs",
-  "version": "2024.12.25",
+  "version": "2024.12.28",
   "description": "A browser extension that add hints to ui elements, which are not fully _random_.",
   "license": "MIT",
   "repository": {
